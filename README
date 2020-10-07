@@ -1,0 +1,19 @@
+
+Required:
+- pycharm
+- python 3.8
+
+How To:
+1. Open the project in the pycharm environment.
+2. Go to the 'Run' tab in th tool bar. Click on 'serv.py' to run
+3. In the terminal, the user will be prompted to enter a server name. This is an arbitrary name but something
+appropriate should be chosen
+4. Go to the 'Run' tab in th tool bar. Click on 'client.py' to run
+5. A GUI (graphical user interface) will appear on your screen.
+    - Firstly, the user must enter their PPS number and click enter.
+    - Begin filling out the remainding fields in the GUI and press the 'Commit' button
+    - The user's data is sent to the server, stored and a risk assessment is carried out by the server.
+    - In the feedback field in the GUI displays automated message based on the user's data and risk assessment
+    - Updated data and statistics can be found in the terminal of the server with every new entry
+6. Steps 4 and 5 can be repeated with 'client2.py' to display multiple user capability and updated statistics
+7. The client/user can leave the connection via the 'Quit' button.
